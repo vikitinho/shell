@@ -1,4 +1,5 @@
 #!/bin/sh
+modprobe sunxi_ir_rx
 modprobe gpio_sunxi
 export NORMAL_LED="/sys/class/gpio_sw/normal_led/data"
 export STANDBY_LED="/sys/class/gpio_sw/standby_led/data"
